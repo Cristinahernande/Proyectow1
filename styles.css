@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #333333;
+}
+
+h1 {
+    color: #00c6c7;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para la tabla */
+table th {
+    background-color: #009092;
+    color: #FFFFFF;
+}
+
+table tr:nth-child(even) {
+    background-color: #c4ffff;
+}
+
+/* Estilos para el botón Actualizar */
+button {
+    background-color: #009092;
+    color: #FFFFFF;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #009092;
+}
+
+/* Estilos para el formulario de actualización */
+form {
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #00c6c7;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #00c6c7;
+    color: #FFFFFF;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00ffff;
+}
