@@ -1,6 +1,4 @@
-/* styles.css */
 
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     background-color: #F5F5F5;
@@ -22,7 +20,7 @@ table th, table td {
     text-align: left;
 }
 
-/* Estilos para la tabla */
+
 table th {
     background-color: #009092;
     color: #FFFFFF;
@@ -32,7 +30,7 @@ table tr:nth-child(even) {
     background-color: #c4ffff;
 }
 
-/* Estilos para el botón Actualizar */
+
 button {
     background-color: #009092;
     color: #FFFFFF;
@@ -45,7 +43,7 @@ button:hover {
     background-color: #009092;
 }
 
-/* Estilos para el formulario de actualización */
+
 form {
     margin-top: 10px;
 }
