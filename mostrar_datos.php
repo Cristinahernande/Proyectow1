@@ -1,5 +1,5 @@
 <?php
-$conexion = mysqli_connect('sql109.epizy.com', 'epiz_34224033', 'Dh0OEQojVMsA', 'epiz_34224033_escuela');
+$conexion = mysqli_connect('localhost', 'root', '', 'proyecto');
 
 if (isset($_POST['actualizar'])) {
     $n_cuenta = $_POST['n_cuenta'];
@@ -43,6 +43,7 @@ if (isset($_GET['n_cuenta'])) {
 </head>
 <body>
     <br>
+    <a href="index.html">regresar al inicio</a>
     <table border="1">
         <tr>
             <th>Número de cuenta</th>

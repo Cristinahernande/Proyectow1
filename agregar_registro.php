@@ -1,5 +1,5 @@
 <?php
-$conexion = mysqli_connect('sql109.epizy.com', 'epiz_34224033', 'Dh0OEQojVMsA', 'epiz_34224033_escuela');
+$conexion = mysqli_connect('localhost', 'root', '', 'proyecto');
 
 if (isset($_POST['agregar'])) {
     $n_cuenta = $_POST['n_cuenta'];
@@ -45,6 +45,7 @@ if (isset($_POST['agregar'])) {
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+<a href="index.html">regresar al inicio</a>
     <div class="formulario">
         <h1>Agregar Registro</h1>
         <form method="post" action="">
